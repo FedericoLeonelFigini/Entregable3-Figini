@@ -1,0 +1,54 @@
+
+body h1{
+    text-align: center;
+}
+
+header{
+     text-align: center;
+}
+
+header img{
+   
+    width: 300px;
+    height: auto;
+}
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+
+footer {
+
+    background-color: rgb(59, 58, 58);
+    text-align: center;
+
+}
+
+footer a {
+    color: white
+}
+
+#video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Pone el video detrás del contenido */
+  object-fit: cover;
+}
